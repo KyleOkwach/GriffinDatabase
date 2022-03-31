@@ -1,0 +1,71 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*NAVBAR*/
+nav::before{
+    position: fixed;
+    font-size: 24px;
+}
+nav .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 100%;
+    color: beige;
+    background-color: #1f1f1f;
+}
+.navbar i{
+    color: goldenrod;
+}
+.banner{
+    background: url(images/desktop_a.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/*FOOTER*/
+footer{
+    min-height: 64px;
+    background-color: #1f1f1f;
+}
+.div-container{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*LOGIN form
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000C66;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #050A30;
+}
+.container .form{
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 27px;
+}
+.form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+}*/
