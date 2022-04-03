@@ -1,0 +1,6 @@
+---Stock Image Credits---
+desktop_a - https://unsplash.com/photos/YLSwjSy7stw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+desktop_b - https://unsplash.com/photos/YLSwjSy7stw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+lib_a - https://unsplash.com/photos/Zf64Osndqvc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+lib_b - https://unsplash.com/photos/B30XL_m3fso?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Staff - https://unsplash.com/photos/DyFjxmHt3Es?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

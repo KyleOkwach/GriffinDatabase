@@ -6,27 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/e17d9bd247.js" crossorigin="anonymous"></script>
-    <title>Griffin Home</title>
+    <title>Griffin | 👋Welcome</title>
 </head>
 <body >
     <nav>
         <div class="navbar">
             <div class="logo">
-                <h1>GriffinLib <i class="fa-brands fa-d-and-d"></i></h1>
+                <a href="index.html">
+                    <h1>GriffLib <i class="fa-brands fa-d-and-d"></i></h1>
+                </a>
             </div>
         </div>
     </nav>
+    <div id="top"></div>
     <div class="banner"></div>
     <div class="center">
-        <div class="grid-container">
-            <div class="grid-item1">
-                <h2>Borrow</h2>
+        <div class="title">
+            <h2>Welcome to The Griffin Library Management System.</h2>
+        </div>
+        <div class="btns">
+            <button id="scrollbtn" onclick="scroll_click('explanation')">
+                Explore
+            </button>
+            <button id="dbaccess" onclick="change_page('login.html')">
+                Access
+            </button>
+        </div>
+    </div>
+    <div class="backtop">
+        <button id="to_top" onclick="scroll_click('top')">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </div>
+    
+    <div id="explanation">
+        <div class="fact-container">
+            <div class="item1">
+                <h1>Manage your Library with ease.</h1>
+            </div>
+            <div class="item2">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia voluptas consequatur similique animi soluta aspernatur aliquam dolor earum sequi!</h1>
             </div>
         </div>
     </div>
 
-    <footer>
 
+    <!--hr style="border-color: #3a3939;"-->
+    <footer>
+        <div class="foot-content">
+            <div class="credit">&copy;GriffinTechologies|2022</div>
+        </div>
+        
     </footer>
 </body>
+<script src="script.js" defer></script>
 </html>

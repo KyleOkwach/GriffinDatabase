@@ -6,27 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/e17d9bd247.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Griffin | 🗝Login</title>
 </head>
-<body >
-    <div class="container">
-        <div class="forms">
-            <div class="form login">
-                <span class="title">Login</span>
-
-                <form action="#">
-                    <input type="email" placeholder="Enter your email" required>
-                    <i class="fa-solid fa-envelope"></i>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>GriffLib <i class="fa-brands fa-d-and-d"></i></h1>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner"></div>
+    <div class="center">
+        <div class="adminform">
+            <div class="pic"></div>
+            <div class="form">
+                <h1>Login Info</h1>
+                <br>
+                <hr>
+                <br>
+                <form action="">
+                    <div class="txt-field">
+                        <input type="text" name="user" required>
+                        <label for="name">Username</label>
+                        <i class="fa-solid fa-user"></i>
+                        <span></span>
+                    </div>                    
+                    <br>                 
+                    <div class="txt-field">
+                        <input type="password" name="password" required>
+                        <label for="password">Password</label>
+                        <i class="fa-solid fa-lock"></i>
+                        <span></span>
+                    </div>
                     <br>
-                    <input type="password" placeholder="Enter your password" required>
-                    <i class="fa-solid fa-key"></i>
-                    <br>
+                    <input type="submit" name="login" value="login" class="submit">
                 </form>
             </div>
         </div>
     </div>
     <footer>
-
+        <div class="foot-content">
+            <div class="credit">&copy;GriffinTechologies|2022</div>
+        </div>
+        
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
