@@ -142,7 +142,7 @@ html{
     .adminform .form .txt-field span::before{
         content: '';
         position: absolute;
-        transform: translate(-54%, -70%);
+        transform: translate(-100%, 2400%);
         height: 2px;
     }
     .adminform .form input{
@@ -163,18 +163,18 @@ html{
         position: absolute;
         color: #4b4b4b;
         left: 5px;
-        transform: translateY(-200%);
+        transform: translateY(150%);
         pointer-events: none;
         transition: all 0.3s ease;
     }
     .adminform .form .txt-field i{
-        transform: translate(600%, -200%);
+        transform: translate(0%, 0%);
         color: #4b4b4b;
         transition: all 0.3s ease;
     }
     .adminform .form .txt-field input:focus ~ label,
     .adminform .form .txt-field input:valid ~ label{
-        transform: translateY(-320%);
+        transform: translateY(20%);
         color: #00c896;
         background: none;
         
