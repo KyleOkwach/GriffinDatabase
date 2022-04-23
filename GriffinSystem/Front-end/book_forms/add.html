@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="https://kit.fontawesome.com/e17d9bd247.js" crossorigin="anonymous"></script>
+    <title>Griffin | Add Book</title>
+</head>
+<body>
+    
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../index.html">
+                        <h1>GriffLib <i class="fa-brands fa-d-and-d"></i></h1>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <main>
+        <div class="banner"></div>
+        <div class="center">
+            <div class="dbform">
+                <div class="form">
+                    <h1>Add Book</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <form action="add.php" method="post" autocomplete="off">
+                        <div class="form-container">
+                            <div class="form-segment">
+                                <div class="txt-field">
+                                    <input type="text" name="bookname" required>
+                                    <label for="bookname">Book Name</label>
+                                    <span></span>
+                                </div>                                                          
+                                <br>
+                                <div class="txt-field">
+                                    <input type="text" name="isbn" required>
+                                    <label for="isbn">ISBN number</label>
+                                    <span></span>
+                                </div>                                                          
+                                <br>
+                                <div class="txt-field">
+                                    <input type="text" name="author" required>
+                                    <label for="author">Author</label>
+                                    <span></span>
+                                </div>                                                          
+                                <br>
+                                <div class="txt-field">
+                                    <input type="text" name="publisher" required>
+                                    <label for="publisher">Publisher</label>
+                                    <span></span>
+                                </div> 
+                                <br>
+                                <div class="txt-field">
+                                    <div class="date-field">
+                                        <input type="date" name="dop" required>
+                                        <label for="dop" class="date">
+                                            Date of publication
+                                        </label>
+                                        <span></span>
+                                    </div>
+                                </div> 
+                                <br>
+                            </div>
+                            <div class="form-segment">
+                                <div class="txt-field">
+                                    <input type="number" name="cost" required class="currency">
+                                    <label for="cost">Cost(KSH)</label>
+                                    <span></span>
+                                </div> 
+                                <div class="txt-field">
+                                    <input type="text" name="donated?" required>
+                                    <label for="donated?">Donated</label>
+                                    <span></span>
+                                </div>    
+                                <div class="txt-field">
+                                    <input type="text" name="condition" required>
+                                    <label for="condition">Condition(New)</label>
+                                    <span></span>
+                                </div>
+                                <div class="txt-field">
+                                    <input type="text" name="category" required>
+                                    <label for="category">Category</label>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="btn-container">
+                            <input type="reset" name="reset" value="reset" class="formbtn">
+                            <input type="submit" name="append" value="Enter" class="formbtn">
+                        </div>                 
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <div class="foot-content">
+            <div class="credit">&copy;GriffinTechologies|2022</div>
+        </div>
+        
+    </footer>
+</body>
+</html>
